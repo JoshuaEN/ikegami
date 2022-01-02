@@ -8,7 +8,7 @@ const ArchivePlugin = require('webpack-archive-plugin')
 module.exports = {
   entry: './index.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'docs'),
     // publicPath: '/dist/',
     filename: 'ikegami.[name]-' + package.version + '.js',
     chunkFilename: 'ikegami.[name].[chunkhash].js'

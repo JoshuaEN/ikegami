@@ -36,6 +36,8 @@
     "webpack-dev-server": "3"
   },
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --host=0.0.0.0 --port=9000 --disable-host-check"
+    "dev": "NODE_ENV=development webpack-dev-server --host=0.0.0.0 --port=9000 --disable-host-check",
+    "win-dev": "cmd /V /C \"set NODE_ENV=development&& webpack-dev-server --host=0.0.0.0 --port=9000 --disable-host-check\"",
+    "build": "webpack"
   }
 }
